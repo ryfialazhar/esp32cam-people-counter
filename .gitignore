@@ -1,0 +1,17 @@
+# Data hitungan harian (dibuat otomatis oleh server.py)
+server/data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Library hasil ekspor Edge Impulse (unduh sendiri, jangan di-commit)
+*_inferencing/
+ei-*.zip
+
+# Lain-lain
+.DS_Store
+Thumbs.db
+.vscode/
