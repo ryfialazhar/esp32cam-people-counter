@@ -1,0 +1,10 @@
+skenario,ulangan,masuk_manual,masuk_alat,keluar_manual,keluar_alat,terlewat,dobel,arah_terbalik,catatan
+S1 Jalan biasa 1 orang,1,10,10,10,9,1,0,0,
+S1 Jalan biasa 1 orang,2,10,9,10,10,1,0,0,
+S1 Jalan biasa 1 orang,3,10,10,10,10,0,0,0,
+S2 Jalan cepat 1 orang,1,10,7,10,8,5,0,0,cahaya sore
+S2 Jalan cepat 1 orang,2,10,8,10,7,5,0,0,
+S2 Jalan cepat 1 orang,3,10,8,10,8,4,0,0,
+S3 Dua orang berdampingan,1,10,7,10,6,7,0,0,
+S3 Dua orang berdampingan,2,10,8,10,7,5,0,0,
+S3 Dua orang berdampingan,3,10,6,10,7,7,0,0,

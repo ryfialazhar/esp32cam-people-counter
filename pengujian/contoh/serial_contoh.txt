@@ -1,0 +1,8 @@
+13:38:51.993 -> DSP: 8 ms, Inferensi: 668 ms, Deteksi: 1
+13:38:53.296 -> DSP: 8 ms, Inferensi: 674 ms, Deteksi: 1
+13:38:54.092 -> DSP: 8 ms, Inferensi: 671 ms, Deteksi: 2
+13:38:54.934 -> DSP: 8 ms, Inferensi: 667 ms, Deteksi: 1
+13:38:55.758 -> DSP: 8 ms, Inferensi: 677 ms, Deteksi: 1
+13:38:56.592 -> DSP: 9 ms, Inferensi: 671 ms, Deteksi: 1
+13:38:57.401 -> DSP: 8 ms, Inferensi: 671 ms, Deteksi: 0
+13:38:58.208 -> DSP: 9 ms, Inferensi: 665 ms, Deteksi: 1
