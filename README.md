@@ -2,7 +2,7 @@
 
 Alat penghitung pengunjung pameran berbasis **ESP32-CAM** dan model deteksi orang **Edge Impulse FOMO** yang berjalan langsung di perangkat (*edge AI*). Kamera menghitung orang yang masuk dan keluar melewati garis virtual, lalu jumlahnya ditampilkan di dashboard pada PC.
 
-Proyek ini disusun agar bisa dipelajari dan dikembangkan oleh mahasiswa sebagai praktikum atau tugas proyek.
+Proyek ini dikembangkan sebagai **capstone project** untuk lomba. Repositori ini berisi kode, panduan menjalankan sistem, serta rencana dan alat bantu pengujian untuk tim.
 
 ## Fitur
 
@@ -34,6 +34,10 @@ esp32cam-people-counter/
 │   ├── dashboard.html     Tampilan dashboard (tanpa internet)
 │   ├── simulasi.py        Uji dashboard tanpa ESP32
 │   └── requirements.txt
+├── pengujian/
+│   ├── lembar_akurasi.csv Templat lembar uji akurasi
+│   ├── catat_serial.py    Perekam log Serial ESP32
+│   └── analisis.py        Pengolah hasil uji menjadi tabel dan grafik
 └── docs/                  Panduan langkah demi langkah
 ```
 
@@ -73,9 +77,9 @@ Panduan lengkap ada di [docs/03-menjalankan-sistem.md](docs/03-menjalankan-siste
 | 3 | [Menjalankan sistem](docs/03-menjalankan-sistem.md) | Upload, mode jaringan, dashboard, pratinjau |
 | 4 | [Pengujian dan penyetelan](docs/04-pengujian-dan-penyetelan.md) | Pemasangan kamera, uji akurasi, parameter |
 | 5 | [Troubleshooting](docs/05-troubleshooting.md) | Error compile, WiFi, upload |
-| 6 | [Tugas mahasiswa](docs/06-tugas-mahasiswa.md) | Tugas bertingkat dan ide pengembangan |
+| 6 | [Rencana pengujian](docs/06-rencana-pengujian.md) | Uji fungsional, akurasi, kinerja, ketahanan, dan luaran untuk lomba |
 
-## Hasil awal
+## Hasil awal (sebelum pengujian lapangan)
 
 | Ukuran | Nilai |
 |---|---|
