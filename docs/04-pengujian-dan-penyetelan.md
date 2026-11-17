@@ -11,6 +11,8 @@ Model dilatih dengan gambar orang **berdiri utuh dan agak jauh dari kamera**, mi
 
 ## Prosedur uji akurasi
 
+Bagian ini adalah uji cepat saat memasang alat. Prosedur pengujian lengkap untuk lomba ada di [panduan 6](06-rencana-pengujian.md).
+
 1. Klik **Mulai hitungan baru** di dashboard.
 2. Satu orang berjalan **masuk 10 kali** dan **keluar 10 kali** dengan kecepatan biasa. Orang lain mencatat hitungan manual.
 3. Ulangi dengan variasi: jalan cepat, dua orang berdampingan, pencahayaan berbeda.
