@@ -1,7 +1,7 @@
 skenario,ulangan,masuk_manual,masuk_alat,keluar_manual,keluar_alat,terlewat,dobel,arah_terbalik,catatan
-S1 Jalan biasa 1 orang,1,10,11,10,11,0,1,1,1 orang terbaca 2 titik di kepala dan kaki jadi masuk keluar ikut terhitung
-S1 Jalan biasa 1 orang,2,10,11,10,10,0,1,0,Motor dan helm yang parkir di sekitar area ikut terbaca sebagai orang
-S1 Jalan biasa 1 orang,3,10,10,10,11,1,1,1,1 terlewat dan ada 1 orang terbaca 2 titik jadi hitungannya dobel dan terbalik
+S1 Jalan biasa 1 orang,1,10,8,10,11,2,1,1,2 orang masuk tidak terbaca dan ada 1 orang terbaca 2 titik di kepala dan kaki jadi masuk keluar ikut terhitung
+S1 Jalan biasa 1 orang,2,10,7,10,10,3,0,0,Kadang saat masuk tidak terbaca dan yang terbaca lancar hanya pas keluar serta motor dan helm parkir sempat ikut terdeteksi
+S1 Jalan biasa 1 orang,3,10,8,10,11,2,1,1,2 kejadian masuk terlewat lalu ada 1 orang terbaca 2 titik jadi hitungannya dobel dan terbalik
 S2 Jalan cepat 1 orang,1,10,3,10,3,14,0,0,Jalan terlalu cepat kamera telat membaca (hanya 30 persen yang terbaca benar)
 S2 Jalan cepat 1 orang,2,10,4,10,2,14,0,0,Banyak yang terlewat karena orang sudah lewat duluan sebelum kamera menangkap gambar
 S2 Jalan cepat 1 orang,3,10,3,10,3,14,0,0,Gerak cepat masih susah terbaca karena jeda kamera lambat
