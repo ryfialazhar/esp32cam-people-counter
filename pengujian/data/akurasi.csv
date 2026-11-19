@@ -1,4 +1,22 @@
 skenario,ulangan,masuk_manual,masuk_alat,keluar_manual,keluar_alat,terlewat,dobel,arah_terbalik,catatan
-S1 Jalan biasa 1 orang,1,10,,10,,,,,
-S1 Jalan biasa 1 orang,2,10,,10,,,,,
-S1 Jalan biasa 1 orang,3,10,,10,,,,,
+S1 1 orang jalan biasa,1,10,8,10,11,2,1,1,2 orang masuk tidak terbaca dan ada 1 orang terbaca 2 titik di kepala dan kaki jadi masuk keluar ikut terhitung
+S1 1 orang jalan biasa,2,10,7,10,10,3,0,0,Kadang saat masuk tidak terbaca dan yang terbaca lancar hanya pas keluar serta motor dan helm parkir sempat ikut terdeteksi
+S1 1 orang jalan biasa,3,10,8,10,11,2,1,1,2 kejadian masuk terlewat lalu ada 1 orang terbaca 2 titik jadi hitungannya dobel dan terbalik
+S2 1 orang jalan cepat,1,10,3,10,3,14,0,0,Jalan terlalu cepat kamera telat membaca (hanya 30 persen yang terbaca benar)
+S2 1 orang jalan cepat,2,10,4,10,2,14,0,0,Banyak yang terlewat karena orang sudah lewat duluan sebelum kamera menangkap gambar
+S2 1 orang jalan cepat,3,10,3,10,3,14,0,0,Gerak cepat masih susah terbaca karena jeda kamera lambat
+S3 2 orang berdampingan,1,10,6,10,6,8,0,0,Jalan barengan berdampingan membuat 2 orang sering terbaca jadi 1 objek saja
+S3 2 orang berdampingan,2,10,5,10,7,8,0,0,Bahu saling menutupi saat jalan sejajar sehingga hanya terbaca 1 orang
+S3 2 orang berdampingan,3,10,6,10,5,9,0,0,Kalau jalan terlalu rapat kamera menganggap 2 orang sebagai 1 orang
+S4 2 orang beriringan,1,10,9,10,9,2,0,0,Jarak 1-2 meter sudah cukup aman terbaca meski 2 orang masih terlewat
+S4 2 orang beriringan,2,10,8,10,9,3,0,0,Orang di belakang terlalu cepat menyusul sehingga sempat tidak terbaca
+S4 2 orang beriringan,3,10,9,10,10,1,0,0,Pembacaan beriringan sudah lumayan pas karena ada jarak antar orang
+S5 2 orang berlawanan arah,1,10,7,10,7,2,0,4,Saat berpapasan di garis arahnya sering tertukar (masuk malah terbaca keluar)
+S5 2 orang berlawanan arah,2,10,8,10,7,3,0,2,1 pasang tertukar arahnya saat berpapasan tepat di tengah garis
+S5 2 orang berlawanan arah,3,10,7,10,8,2,0,3,Kamera bingung membedakan arah masuk dan keluar saat 2 orang papasan
+S6 Pencahayaan redup,1,10,5,10,6,9,0,0,Cahaya kurang membuat gambar gelap sehingga banyak orang lewat tidak terbaca
+S6 Pencahayaan redup,2,10,6,10,5,9,0,0,Baju gelap menyatu dengan bayangan ruangan redup jadi tidak terdeteksi
+S6 Pencahayaan redup,3,10,5,10,5,10,0,0,Separuh kejadian terlewat karena kamera susah melihat orang di tempat gelap
+S7 Membawa tas atau payung,1,10,11,10,12,0,3,0,Payung dan tas besar ikut terbaca sebagai orang sehingga hitungannya dobel
+S7 Membawa tas atau payung,2,10,12,10,11,0,3,0,Tas ransel besar di samping badan terbaca jadi 2 objek oleh kamera
+S7 Membawa tas atau payung,3,10,11,10,11,0,2,0,Barang bawaan yang lebar memicu hitungan ganda saat melewati garis
