@@ -1,3 +1,5 @@
+#include <penghitung-pengunjung_inferencing.h>
+
 /*
  * Penghitung Pengunjung Pameran
  * ESP32-CAM (AI Thinker) + Edge Impulse FOMO
@@ -17,7 +19,7 @@
 
 // Library hasil ekspor Edge Impulse (FOMO 96x96 grayscale, int8).
 // GANTI nama header ini sesuai nama proyek Edge Impulse Anda (lihat docs/02-melatih-model.md).
-#include <Person_Detection_with_Renesas_DRP-AI_inferencing.h>
+#include <penghitung-pengunjung_inferencing.h>
 #include "edge-impulse-sdk/dsp/image/image.hpp"
 #include "esp_camera.h"
 #include <WiFi.h>
